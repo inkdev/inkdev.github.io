@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Добавление user'a в sudoers
+title: Bash Special Variables
 ---
-
-В терминале пишем visudo
-```
-visudo
-```
-Ниже root    ALL=(ALL) ALL пишем:
-имя_юзера    ALL=(ALL) ALL
-
-Сохраняем, логинимся         
+|Variable   |Description   |
+|---|---|
+| $0  |The filename of the current script   |
+| $!  | The process ID of the last background command  |
+| $_  | The last argument of the previous command  |
+| $?  |  The exit status of the last command executed |  
