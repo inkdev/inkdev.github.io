@@ -8,3 +8,4 @@ title: Bash Special Variables
 | $!  | The process ID of the last background command  |
 | $_  | The last argument of the previous command  |
 | $?  |  The exit status of the last command executed |  
+| $#  | Number of command-line arguments
