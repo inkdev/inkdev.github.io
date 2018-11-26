@@ -9,3 +9,4 @@ title: Bash Special Variables
 | $_  | The last argument of the previous command  |
 | $?  |  The exit status of the last command executed |  
 | $#  | Number of command-line arguments
+| $@  | All arguments on command line($1 $2...)
